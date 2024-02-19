@@ -12,6 +12,17 @@ a {
     color: black;
     flex-direction: column;
     margin: 5px auto;
+    transition: all 0.2s, ease;
+}
+
+.btn__body.active{
+    background-color: #b9932b;
+    color: antiquewhite;
+    transform: scale(1.04);
+}
+
+.btn__body:hover{
+    color: rgb(117, 116, 113);
 }
 
 .btn__title{
