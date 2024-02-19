@@ -1,0 +1,21 @@
+a {
+    text-decoration: none !important;
+}
+
+.btn__body{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    margin: 5px auto;
+}
+
+.btn__title{
+    margin: 4px auto;
+    font-weight: 600;
+    font-size: 12PX;
+}
